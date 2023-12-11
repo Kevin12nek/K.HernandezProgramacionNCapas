@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74d0ee42e51947ccb2b68f69a5b8985c" Name="Diagram1">
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Rol" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Usuario" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="KHernandezProgramacionNCapasModel.FK__Usuario__IdRol__3F466844" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Colonia" Width="1.5" PointX="12.125" PointY="1.125" />
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Municipio" Width="1.5" PointX="9.875" PointY="1.25" />
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Pai" Width="1.5" PointX="5.375" PointY="1.375" />
+        <AssociationConnector Association="KHernandezProgramacionNCapasModel.FK__Colonia__IdMunic__656C112C" />
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Estado" Width="1.5" PointX="7.625" PointY="1.125" />
+        <AssociationConnector Association="KHernandezProgramacionNCapasModel.FK__Estado__IdPais__5FB337D6" />
+        <AssociationConnector Association="KHernandezProgramacionNCapasModel.FK__Municipio__IdEst__628FA481" />
+        <EntityTypeShape EntityType="KHernandezProgramacionNCapasModel.Direccion" Width="1.5" PointX="14.375" PointY="1.75" />
+        <AssociationConnector Association="KHernandezProgramacionNCapasModel.FK__Direccion__IdCol__68487DD7" />
+        <AssociationConnector Association="KHernandezProgramacionNCapasModel.FK__Direccion__IdUsu__693CA210" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
